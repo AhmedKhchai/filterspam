@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "spam-filter"
+version = "0.1.0"
+description = "use machine learning to detect a spam comment"
+authors = ["AhmedKhchai <a.khchai@gmail.com>"]
+readme = "README.md"
+packages = [{include = "spam_filter"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.1"
+scikit-learn = "^1.4.1.post1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
